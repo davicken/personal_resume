@@ -1,0 +1,595 @@
+.goldTxt{
+	color:#FFD700;
+}
+/*START OF davicken HEADER*/
+.davickenHeader{
+	min-height: 400px;
+	width: 100%;
+	background:linear-gradient(to bottom, rgba(27,27,27,0.9) 100%,rgba(255,255,255,0.7) 0%), url("img/header.jpg")no-repeat center center;
+	padding: 61px 100px 0px;
+	font-weight: bold;
+}
+.davickenHeader .ken a{
+	border:none;
+	border-radius:50px;
+	background-color:#696969;
+	height: 25px;
+	width:100px;
+	color: #fff;
+	font-size: 10px;
+	margin: 0 20px 0 20px;
+
+}
+.davickenHeader .mouse img{
+	margin-top: 116px;
+
+}
+@media(max-width:1024px){
+	.davickenHeader .mouse img{
+	margin-left: -36px;
+	height: 200px!important;
+	width: 200px !important;
+}
+.davickenSmallNav{
+	display: none;
+} 
+.davickenHeader{
+	min-height: 430px;
+}
+}
+@media(max-width:960px){
+    .davickenHeader{
+	min-height: 100px;
+	padding: 61px  10px 0px 100px;
+
+	}
+	.davickenHeader .mouse img{
+	margin-bottom: 116px;
+
+}
+}
+@media(max-width: 768px){
+   .davickenHeader{
+	min-height: 300px;
+	padding: 61px  10px 0px 100px;
+	}
+	.davickenHeader h1{
+	font-size: 30px !important;
+
+	}
+	.davickenHeader h4{
+	font-size: 16px !important;
+
+	}
+	.davickenHeader h4{
+	font-size: 16px !important;
+
+	}
+	.davickenHeader h4{
+	font-size: 16px !important;
+
+	}
+	.davickenHeader .h5{
+	font-size: 10px !important;
+
+	}
+
+
+	.davickenHeader .ken a{
+	height: 22px;
+	font-size: 8px;
+	margin: 0 20px 0 20px;
+
+}
+.davickenHeader .mouse img{
+	margin: 40px 0px;
+}
+}
+
+/*end of davicken header*/
+/*Start of the smal navigation*/
+.davickenSmallNav{
+	margin-top: 21px;
+}
+
+.davickenSmallNav .navbar-nav {
+    float: right;
+    margin: 0;
+}
+.davickenSmallNav navbar-nav {
+    margin: 20px 15px;
+}
+
+.davickenSmallNav .menu li {
+    margin: 0px;
+    padding: 0px;
+        padding-left: 0px;
+        border-bottom: 1px  solid #D3D3D3;
+       
+        margin-top: -20px;
+}
+.davickenSmallNav .menu i{
+color:#FFA500;
+font-size: 20px;
+}
+.davickenSmallNav .menu a{
+color: #696969;
+font-size: 16px;
+padding: 20px 50px;
+}
+/*start of about me*/
+.davickenAboutMe a{
+	border:none;
+	border-radius:50px;
+	background-color:#696969;
+	height: 25px;
+	width:100px;
+	color: #fff;
+	font-size: 10px;
+	margin: 20px 0 20px -10px;
+
+}
+.davickenAboutMe .shadow{
+     box-shadow: 2px 2px 20px silver;
+     padding: 30px 20px;
+
+}
+@media(max-width: 768px){
+	.davickenAboutMe h2{
+		text-align:  center;
+		font-size: 20px;
+	}
+	.davickenAboutMe a{
+		display: block;
+  margin-right: auto;
+  margin-left: auto;
+	}
+	.davickenAboutMe .shadow{
+     box-shadow: 2px 2px 20px silver;
+     padding: 30px 20px;
+
+}
+}
+/*end of about me  */
+.greytxt{
+	color:#808080;
+}
+
+/*end of davicken Small Navigation*/
+
+/*Start of the fixed menu bar*/
+.davickenFloatingNav{
+	width: 80px;
+	height: 430px;
+	margin-left:50px;
+    background:#FFD700;
+    position: fixed;
+    top:60px;
+    left:0px;
+    margin-left: 8px;
+    box-shadow: 2px 2px 20px grey;
+    z-index:10;
+}
+.davickenFloatingNav a{
+	width: 50px;
+	margin-top: 10px;
+}
+.davickenFloatingNav i{
+	font-size: 20px;
+	color: #000;
+	margin-right: 30px;
+
+
+}
+@media(max-width: 768px){
+	.davickenFloatingNav{
+	height: 430px;
+	margin-left:50px;
+    background:#FFD700;
+    position: absolute;
+    top:62px;
+    left:-35px;
+}
+	
+}
+@media(max-width: 1024px){
+	.davickenFloatingNav{
+	height: 400px;
+	margin-left:50px;
+    background:#FFD700;
+    position: absolute;
+    top:62px;
+    left:-35px;
+}
+.davickenFloatingNav i{
+	font-size: 16px;
+	color: #000;
+	margin-right: 30px;
+
+
+}
+}
+/*end of the fixed menu bar*/
+
+ 
+ /*start of experience section*/
+.davickenExperience{
+	min-height: 400px;
+	width: 100%;
+	background-color: #D3D3D3;
+}
+.davickenExperience .goldBg{
+    background-color: #FFD700;
+    padding: 10px 40px 20px;
+    height: 200px;
+    box-shadow: 2px 2px 20px grey;
+    
+} 
+.davickenExperience .whiteGold{
+	margin-bottom:100px;
+
+}
+.davickenExperience  h2{
+	margin: 80px 0px 50px;
+
+}
+.davickenExperience .goldBg img{
+    position: relative;
+    top: 65px;
+    left:-60px;
+z-index: 5;
+    
+}
+
+.davickenExperience .whiteBg{
+	background-color: #fff;
+	height: 200px;
+	padding: 40px 30px;
+    
+}
+.davickenExperience .myShadow{
+	box-shadow: 2px 2px 20px grey;
+	min-height: 200px;
+}
+@media(max-width: 768px){
+  .davickenExperience h2{
+		text-align:  center;
+		font-size: 20px;
+		margin-top: 45px;
+		margin-bottom: 20px;
+	}
+	.davickenExperience .whiteBg{
+	background-color: #fff;
+	min-height: 200px;
+	padding: 20px 20px;
+    
+}
+.davickenExperience .goldBg{
+    background-color: #FFD700;
+    padding: -10px 40px 20px;
+ 
+    
+} 	
+}
+
+ /*end of experience section  */ 
+/*START OF EDUCATION SECTION*/
+.davickenEducation{
+	background-color:#F0F8FF; 
+	height: 400px;
+}
+ .davickenEducation .carousel {
+    background-color: #F0F8FF;
+    height: 400px;
+  /*  padding: 50px;*/
+ }
+ .davickenEducation .carousel .controls i{
+    margin-top: 200px;
+ }
+   .davickenEducation .carousel-inner h2{
+   	 margin-left: 100px;
+   }
+  .davickenEducation .carouselContent1{
+  	padding:50px 200px;
+  	background-color: #F0F8FF;
+  }
+  .davickenEducation .carouselContent1 i{
+  	font-size: 25px;
+  }
+ .davickenEducation .carouselContent1 .textWhite {
+    background-color: #fff;
+    height: 200px;
+    padding: 40px 70px;
+
+
+ }
+ @media(max-width: 768px){
+ 	 	.davickenEducation .carousel-inner h2{
+ 	 		text-align: center;
+ 	 		margin-left:0px;
+ 	 	}
+ 	.davickenEducation .carouselContent1{
+  	padding:20px;
+  	background-color: #F0F8FF;
+  }
+ }
+/*end OF EDUCATION SECTION*/
+/*start of skills & language section*/
+.davickenSkills{
+	min-height:400px;
+	padding: 30px 20px;
+}
+.davickenSkills .languages{
+	background-color: #fff;
+	box-shadow: 5px 5px 20px grey;
+	margin-top: 108px;
+	min-height:180px;
+	padding:25px 80px;
+	
+/*	width: 40%;*/
+
+
+}
+
+.davickenSkills .progress {
+	border-radius: 0px;
+	background-color: #000;
+	color:#fff; 
+	margin-top: 10px;
+}
+.davickenSkills .progress .progressbar{
+	height: 10px;
+	background-color: #fff;
+	
+}
+@media(max-width: 768px){
+   .davickenSkills h2{
+   	font-size: 20px;
+   	text-align: center;
+   }
+   .davickenSkills h4{
+   	font-size: 15px;
+   	
+   }
+   .davickenSkills .languages{
+	background-color: #fff;
+	box-shadow: 5px 5px 20px grey;
+	margin-top: 50px;
+	min-height:180px;
+	margin-left: -30px!important;
+/*	width: 40%;*/
+
+
+}
+}
+@media(max-width:1024px){
+	.davickenSkills .languages{
+	
+	margin-top: 50px;
+	min-height:180px;
+	margin-left:0px!important;
+/*	width: 40%;*/
+	margin-top: 105px;
+	padding: 20px 40px 40px;
+	height: 150px;
+}
+.davickenSkills .languages h4{
+margin-bottom: 10px;
+}
+.davickenSkills .progressbar h4{
+	font-size: 14px !important;
+}
+}
+}
+
+/*end of skills & language section*/  
+
+
+/*START OF PORTIFOLIO*/
+.davickenPortfolio{
+  background-color:#F0F8FF;
+  padding: 50px 5px;
+  min-height: 500px;
+}
+.davickenPortfolio a{
+border-radius: 50px;
+background-color:transparent;
+width:130px;
+font-weight: bold;
+color:#696969; 
+}
+
+@media(max-width: 768px){
+.davickenPortfolio h2{
+	font-size: 20px;
+	text-align: center;
+}	
+.davickenPortfolio a{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	width: 100px;
+	margin-bottom: 5px;
+}
+}
+/*END OF PORTIFOLIO*/
+
+/*start of recommendations*/
+.davickenRecommendations{
+	min-height: 400px;
+	background-color: gold;	
+	padding: 50px;
+}
+.davickenRecommendations h2{
+   margin:20px 25px 30px;
+}
+
+.davickenRecommendations i{
+font-size: 25px; 
+font-weight: bold;
+color: #000;
+padding: 0px 30px;
+}
+.davickenRecommendations .other{
+	margin-left: 100px;
+}
+@media(max-width: 768px){
+.davickenRecommendations h2{
+font-size: 20px;
+text-align: center;
+}
+.davickenRecommendations i{
+font-size: 20px; 
+font-weight: bold;
+margin-top: 1px!important;
+padding: 0px 0px;	
+}
+.davickenRecommendations .other{
+	margin-right: auto!important;
+	margin-left: auto!important;
+	display: block!important;
+}
+
+}
+/*end of recommendations*/
+
+/*begining of myBlog*/
+.davickenMyblog{
+	min-height: 600px;
+	background-color: #FDF5E6;
+}
+.davickenMyblog h2{
+	padding: 50px 0px 20px;
+}
+.davickenMyblog .shadow{
+	box-shadow: 5px 5px 20px grey;
+
+}
+.davickenMyblog .viewAll a {
+    border-radius: 50px;
+    background-color: transparent;
+    width: 130px;
+    font-weight: bold;
+    color: #696969;
+    display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top:50px;
+  margin-bottom: 50px;
+  border-width: 2px;
+
+}
+.davickenMyblog .shadow .blogText{
+   padding: 30px;
+   background-color: #fff;
+}
+@media(max-width: 960px){
+.davickenMyblog .first{
+	margin-bottom: 20px;
+}	
+}
+@media(max-width: 768px){
+	.davickenMyblog h2{
+	font-size: 20px;
+	text-align: center;
+}
+.davickenMyblog h5{
+	font-size: 10px;
+}
+}
+@media(max-width: 1024px){
+	.davickenMyblog h2{
+	font-size: 20px;
+	text-align: center;
+}
+.davickenMyblog h5{
+	font-size: 10px;
+}
+}
+
+/*end of davickenMyblog*/
+
+
+/*START OF davicken SAY HELLO SECTION*/
+.davickenHello{
+	min-height: 500px;
+	/*padding: 60px*/
+}
+.davickenHello h2{
+	 margin:80px 20px  30px 120px;
+}
+.davickenHello .goldBack{
+ background-color: gold;
+ height: 500px;
+}
+.davickenHello .blackBack{
+ background:rgba(27,27,27, 0.9);
+ min-height: 500px;
+ color:#fff;
+ padding: 100px 50px;
+
+}
+.davickenHello .blackBack i{
+font-size: 25px;
+border:1px solid #A9A9A9;
+padding: 15px;
+
+
+}
+.davickenHello .goldBack .myForm{
+  background-color: transparent;
+  width: 300px;
+  margin-left: 110px;
+  border:1px solid #778899;
+}
+@media(max-width: 768px){
+	.davickenHello h2{
+	 font-size: 20px;
+	 text-align: center;
+	 margin:80px 0px  30px 0px;
+	}
+	.davickenHello .goldBack .myForm{
+  margin-left: 50px;
+
+}
+.davickenHello a{
+	margin-right: auto!important;
+	margin-left: auto !important;
+	display: block!important;
+}
+.davickenHello .blackBack{
+	min-height: 200px;
+	font-size: 17px;
+border:1px solid #A9A9A9;
+padding: 40px 150px;
+}
+
+}
+@media(max-width: 960px){
+  .davickenHello .blackBack{
+	min-height: 200px;
+	font-size: 17px;
+border:1px solid #A9A9A9;
+padding: 40px 150px;
+} 
+}
+@media(max-width: 320px){
+	.davickenHello .goldBack .myForm{
+ 	 margin-left: 10px;
+
+}
+
+}
+@media(max-width: 360px){
+	.davickenHello .goldBack .myForm{
+ 	 margin-left: 20px;
+}
+}
+
+
+/* /*END OF davicken SAY HELLO SECTION* */
+
+canvas {
+    top: -30%!important;
+    position: absolute !important;
+}
