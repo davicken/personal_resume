@@ -10,20 +10,31 @@
 	font-weight: bold;
 }
 .davickenHeader .ken a{
-	border:none;
-	border-radius:50px;
-	background-color:#696969;
-	height: 25px;
-	width:100px;
-	color: #fff;
-	font-size: 10px;
-	margin: 0 20px 0 20px;
-
+    border: none;
+    border-radius: 50px;
+    background-color: #696969;
+    height: 23px;
+    width: 100px;
+    color: #fff;
+    font-size: 8px;
+    margin: 0 20px 0 20px;
 }
+
 .davickenHeader .mouse img{
 	margin-top: 116px;
 
 }
+
+.davickenHeader .semi-head{
+	font-size: 12px !important;
+
+	}
+
+.davickenHeader .h5{
+	font-size: 12px !important;
+
+	}
+
 @media(max-width:1024px){
 	.davickenHeader .mouse img{
 	margin-left: -36px;
